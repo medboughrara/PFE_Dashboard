@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # KUKA HMI Dashboard
 
 A modern web-based Human Machine Interface (HMI) dashboard built with Next.js, TypeScript, and Tailwind CSS for KUKA robotics systems.
@@ -297,4 +296,3 @@ d:\kuka-hmi(2)\
 MIT License
 
 ---
->>>>>>> cd42bef (Initial commit)
