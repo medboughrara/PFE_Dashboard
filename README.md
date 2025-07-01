@@ -9,7 +9,7 @@ Visit the live demo at: still working on
 **Demo Video:**
 
 <video width="600" controls>
-  <source src="public/images/HMI.mp4" type="video/mp4">
+  <source src="/images/HMI.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
