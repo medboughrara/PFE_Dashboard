@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 # Configuration
-CAMERA_URL = "http://192.168.100.84:8080/video"
+CAMERA_URL = "http://192.168.1.22:8080/video"
 FRAME_WIDTH, FRAME_HEIGHT = 640, 480
 
 latest_detections = []

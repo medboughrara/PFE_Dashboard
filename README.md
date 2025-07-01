@@ -186,6 +186,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Support
 
 For support, please open an issue in the GitHub repository.
+
 =======
 # KUKA HMI Cube Sorting System
 
@@ -275,11 +276,20 @@ d:\kuka-hmi(2)\
 
 ## Customization
 
-- **Camera URL:**  
-  Change `CAMERA_URL` in `backend/main.py` and `defaultCameraUrl` in `app/camera/page.tsx` if your camera uses a different address.
+## Adding a Video to the Dashboard
 
-- **Detection thresholds:**  
-  Adjust color ranges and area thresholds in `backend/main.py` for your lighting/camera setup.
+To display a video on your dashboard, add your video file to the `public` directory. For example, place your video at `public/0630 (1).mp4`.
+
+You can embed the video in your dashboard or any page using the following HTML snippet:
+
+```jsx
+<video width="640" height="360" controls>
+  <source src="/0630 (1).mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+```
+
+Add this code to the appropriate React component (e.g., `app/page.tsx`) to display the video player on your dashboard.
 
 ---
 
