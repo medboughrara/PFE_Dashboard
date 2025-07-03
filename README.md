@@ -5,7 +5,7 @@ A modern web-based Human Machine Interface (HMI) dashboard built with Next.js, T
 **Demo Video:**
 
 <video width="600" controls>
-  <source src="public/images/HMI1.mp4" type="video/mp4">
+  <source src="public/images/HMI.mp4" type="video/mp4">
 </video>
 
 ## Detailed Installation Guide
